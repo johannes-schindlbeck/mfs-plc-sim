@@ -1,0 +1,51 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Configurator",
+            "request": "launch",
+            "mainClass": "pl.sapusers.mfsplc.Configurator",
+            "projectName": "MFS"
+        },
+        {
+            "type": "java",
+            "name": "Bridge",
+            "request": "launch",
+            "mainClass": "pl.sapusers.mfsplc.bridge.Bridge",
+            "projectName": "MFS"
+        },
+        {
+            "type": "java",
+            "name": "Sim",
+            "request": "launch",
+            "mainClass": "pl.sapusers.mfsplc.sim.Sim",
+            "projectName": "MFS",
+            "args": "MyMFS.properties"
+        },
+        {
+            "type": "java",
+            "name": "TcpServer",
+            "request": "launch",
+            "mainClass": "pl.sapusers.mfsplc.sim.TcpServer",
+            "projectName": "MFS"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "pl.sapusers.mfsplc.sim.test",
+            "projectName": "MFS"
+        }
+    ]
+}

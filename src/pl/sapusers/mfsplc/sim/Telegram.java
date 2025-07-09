@@ -46,6 +46,8 @@ public class Telegram {
 
 		} catch (IllegalArgumentException | JCoException e) {
 			logger.error(e);
+		} catch (Throwable t){
+			logger.error("Fatal error while creating telegram structure: " + t.getMessage(), t);
 		}
 	}
 
